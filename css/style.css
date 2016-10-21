@@ -1,0 +1,71 @@
+body {
+  background: url(img/background.png);
+  background-size: 100% 100%;
+  background-repeat: repeat-y;
+}
+
+.title {
+  font-family: Arial;
+  width: 557px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.foto1 {
+  text-align: center;
+}
+
+.myfoto {
+  width: 150px;
+  border: solid;
+  border-width: thin;
+  border-color: grey;
+}
+
+.about-photo {
+  font-size: 14px;
+  font-family: Arial;
+  border-bottom: solid;
+  border-width: thin;
+  border-color: grey;
+  padding-bottom: 20px;
+}
+
+
+.frontendbecause {
+  font-family: Times;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.whyfrontend {
+  border-bottom: solid;
+  border-width: thin;
+  border-color: grey;
+  padding-bottom: 20px;
+}
+
+.list {
+  border-bottom: solid;
+  border-width: thin;
+  border-color: grey;
+  padding-bottom: 20px;
+  list-style-type: none;
+}
+
+.list_feedback{
+  list-style-type: none;
+}
+
+li {
+    font-size: 14px;
+    font-family: Times;
+}
+
+a {
+  color: blue;
+  font-style: italic;
+}

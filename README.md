@@ -1,2 +1,2 @@
-# nabok.github.io
-My homeworks in GoIT
+# homework1
+Homework1
