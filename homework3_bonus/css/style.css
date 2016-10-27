@@ -1,0 +1,27 @@
+body {
+    position: relative;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: black;
+    width: 960px;
+    height: 883px;
+    margin: auto;
+    padding: 53px 70px 30px 70px;
+    box-sizing: border-box;
+}
+
+.header {
+  height: 147px;
+}
+
+.logo {
+
+}
+
+.contacts {
+  position: absolute;
+  top: 150px;
+  right: 87 px;
+  left: 780px;
+}
