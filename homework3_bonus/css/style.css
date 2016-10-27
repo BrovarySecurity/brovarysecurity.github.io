@@ -12,16 +12,48 @@ body {
 }
 
 .header {
-  height: 147px;
-}
-
-.logo {
-
+    height: 147px;
 }
 
 .contacts {
-  position: absolute;
-  top: 150px;
-  right: 87 px;
-  left: 780px;
+    position: absolute;
+    top: 150px;
+    right: 87 px;
+    left: 780px;
+}
+
+.content {
+    padding-bottom: 194px;
+}
+
+li {
+    display: inline-block;
+}
+
+figure {
+    position: relative;
+    width: 270px;
+    float: left;
+}
+
+figcaption {
+    position: absolute;
+    color: #e6e6e6;
+    font-family: Tahoma;
+    font-size: 15px;
+    left: 110px;
+}
+
+.second_country {
+    margin-top: 45px;
+}
+
+.footer {
+    width: 171px;
+    height: 11px;
+    color: #e6e6e6;
+    font-family: Tahoma;
+    font-size: 10px;
+    font-weight: 400;
+    margin: auto;
 }
