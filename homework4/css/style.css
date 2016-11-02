@@ -84,8 +84,8 @@ body {
     z-index: 999;
     display: inline-block;
     width: 100%;
-    height: 28px;
-    /*line-height: 10px;*/
+    /*height: 28px;*/
+  /*  line-height: 10px;*/
     ;
 }
 
@@ -94,6 +94,12 @@ ul {
     margin: 0;
     padding: 0;
     list-style: none;
+
+}
+
+.menu {
+  /*line-height: 10px;*/
+    /*height: 50px;*/
 }
 
 ul:after {
