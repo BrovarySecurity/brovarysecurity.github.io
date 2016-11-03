@@ -5,12 +5,11 @@ body {
     background-position: top;
     background-color: black;
     width: 960px;
-    height: 883px;
+     height: 883px;
     margin: auto;
     padding: 53px 70px 30px 70px;
     box-sizing: border-box;
 }
-
 
 .header {
     height: 147px;
@@ -34,7 +33,7 @@ li {
 figure {
     position: relative;
     width: 270px;
-    float: left;
+    /*float: left;*/
 }
 
 figcaption {
@@ -44,6 +43,11 @@ figcaption {
     font-size: 15px;
     left: 110px;
 }
+
+
+/*.image {
+  width: 15px;
+}*/
 
 .second_country {
     margin-top: 45px;
