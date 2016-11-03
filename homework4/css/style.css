@@ -77,11 +77,13 @@ body {
 }
 
 .sidebar {
-
     position: relative;
-    -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: 0px 7px 8px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 7px 8px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 7px 8px -3px rgba(0, 0, 0, 0.75);
+    /*-webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.8);
     -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.8);
-    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.8);*/
     z-index: 999;
     display: inline-block;
     width: 100%;
@@ -98,7 +100,7 @@ ul {
 }
 
 .menu {
-  background-color: #333333;
+    background-color: #333333;
     /*line-height: 10px;*/
     height: 28px;
 }
@@ -132,16 +134,22 @@ ul.menu>li>a {
     text-align: center;
 }
 
-ul.menu>li>a:hover {
+
+/*ul.menu>li>a:hover {
     background-color: black;
-}
+
+  }*/
 
 ul.submenu {
+    border-top: 1px solid black;
     display: none;
     position: absolute;
     width: 150px;
     top: 28px;
     left: 0;
+    -webkit-box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.75);
     /*background-color: white;
     border: 1px solid red;*/
 }
@@ -208,6 +216,7 @@ ul.menu>li:hover>ul.submenu {
     background-color: #edeef0;
     z-index: 1;
     color: #424c43;
+    border-left: 1px solid #c7cacf;
 }
 
 .copyright {
