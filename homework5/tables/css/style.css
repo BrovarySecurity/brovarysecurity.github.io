@@ -1,0 +1,96 @@
+.wrapper {
+    position: relative;
+    width: 500px
+}
+
+td {
+    border: 5px solid black;
+}
+
+table {
+    border-collapse: separate;
+}
+
+table:after {
+    content: "";
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    border: 5px solid white;
+    border-top: 15px solid white;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.white {
+    background-color: white;
+}
+
+.black {
+    background-color: black;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.tr2 {
+    height: 55px;
+}
+
+.tr3 {
+    height: 140px;
+}
+
+.tr4 {
+    height: 136px;
+}
+
+.tr5 {
+    height: 70px;
+}
+
+.tr6 {
+    height: 68px;
+}
+
+.tr7 {
+    height: 42px;
+}
+
+.tr8 {
+    height: 38px;
+}
+
+
+.td1 {
+    width: 53px;
+}
+
+.td2 {
+    width: 78px;
+}
+
+.td3 {
+    width: 74px;
+}
+
+.td4 {
+    width: 138px;
+}
+
+.td5 {
+    width: 88px;
+}
+
+.td6 {
+    width: 78px;
+}
