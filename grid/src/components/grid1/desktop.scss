@@ -1,0 +1,65 @@
+& {
+  margin: 0;
+  padding: 0;
+  background-color: red;
+
+  $width: 100px;
+  $colcount: 4;
+
+  @mixin gutter {
+    float: left;
+
+  }
+
+  // @function calculation($value) {
+  //   @return ($value/2);
+  // }
+
+  @mixin grid($width, $colcount) {
+    @for $i from 1 through $colcount {
+      .grid-#{$i} {@include gutter;
+        width: calculation($width)}
+    }
+  }
+
+
+
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  .grid-layout {
+    width: 100%;
+    background-color: black;
+    border: 1px solid green;
+    .grid-row {
+      // width: 100%;
+      background-color: brown;
+      @include grid($width, $colcount);
+
+    // .grid-col*{
+    //   float: left;
+    //   display: block;
+    // }
+
+      // .grid-col1 {
+      //   // @include gutter;
+      //   background-color: yellow;
+      // }
+      // .grid-col2 {
+      //   // @include gutter;
+      //   background-color: purple;
+      //
+      // }
+      // .grid-col3 {
+      //   // @include gutter;
+      //   background-color: grey;
+      // }
+      // .grid-col4 {
+      //   // @include gutter;
+      //   background-color: yellow;
+      // }
+    }
+  }
+}
