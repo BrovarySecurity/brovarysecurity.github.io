@@ -34,6 +34,7 @@ function pow(a, n) {
         for (var j = 0; j >= n; j--) {
             c *= (10 / a);
             c /= 10;
+            console.log(c);
         }
         return c;
     }
