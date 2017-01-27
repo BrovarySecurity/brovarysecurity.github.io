@@ -8,9 +8,10 @@ for (var i = 0; i < 5; i++) {
 console.log(arr);
 
 var nameCompare = prompt('Введіть імя користувача', '');
+var result = "Вашого імені немає в масиві";
+var ln = arr.length;
 
-for (var i = 0; i < arr.length; i++) {
-    var result = "Вашого імені немає в масиві";
+for (var i = 0; i < ln; i++) {
     if (nameCompare === arr[i]) {
         var result = nameCompare + " ви в списку!";
         break;

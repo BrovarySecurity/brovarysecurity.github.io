@@ -1,0 +1,18 @@
+.wrapper {
+  width: 500px;
+  margin: auto;
+  }
+
+.wrapper p {
+  text-align: center;
+}
+
+.question1 {
+  list-style: none;
+}
+
+.check-results {
+  display: block;
+  width: 200px;
+  margin: auto;
+}
