@@ -1,0 +1,9 @@
+.results {
+  width: 200px;
+  margin: 0 auto;
+}
+
+button {
+  width: 10%;
+  outline: none; 
+}
